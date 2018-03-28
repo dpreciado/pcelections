@@ -1,0 +1,485 @@
+{
+  "settings": {
+    "name": "ADP PC Elections",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#D901ED",
+        "secondaryColor": "#46004C",
+        "successColor": "#2BE080",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Arapey",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.6.7",
+    "uniqCompNum": 15,
+    "versionPublish": "4.6.7",
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "scrollAnimation": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "siteUrl": "undefined"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "showMedia": true,
+            "imageSize": "50",
+            "inverse": true,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/header5.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.35
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=axMabrSDrI8",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Precinct Committeeperson Elections</i></span>",
+          "text": "Full-width intro with parallax background and media on the right side. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, totam sit! Ut perspiciatis sint minima, a, consequatur maxime minus neque voluptatem laborum distinctio amet. Ea deleniti sed, commodi aperiam! Harum excepturi ipsa temporibus sit, natus illum expedita officiis doloribus a aspernatur",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-a",
+          "_styles": {
+            "SPAN": {
+              "font-size": "80px",
+              "font-family": "'Arapey', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arapey:400,400i"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showText": true,
+            "columns": 6,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "Steps to success",
+          "text": "Donec non augue eros. Praesent quis nunc metus. Duis vehicula nisl diam, in varius nibh consectetur eget. Sed quis magna id libero very molestie posuere. Mauris ac ligula eget quam",
+          "title1": "<a href=\"index.html#accordion3-7\">Apache County</a>",
+          "title2": "<a href=\"index.html#accordion3-7\">Cochise County</a>",
+          "title3": "<a href=\"index.html#accordion3-7\">Coconino County</a>",
+          "title4": "<a href=\"index.html#accordion3-7\">Gila County</a>",
+          "title5": "<a href=\"index.html#accordion3-7\">Graham County</a>",
+          "title6": "<a href=\"index.html#accordion3-7\">Greenlee County</a>",
+          "subtitle1": "Subtitle1",
+          "subtitle2": "Subtitle2",
+          "subtitle3": "Subtitle3",
+          "subtitle4": "Subtitle4",
+          "subtitle5": "Subtitle5",
+          "subtitle6": "Subtitle6",
+          "text1": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats<br><br>",
+          "text2": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text3": "# of precincts\n<br>total # of PC Slots<br>\ntotal # of statecommittee seats<br><br>",
+          "text4": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text5": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text6": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-0",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "columns": 6,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "Steps to success",
+          "text": "Donec non augue eros. Praesent quis nunc metus. Duis vehicula nisl diam, in varius nibh consectetur eget. Sed quis magna id libero very molestie posuere. Mauris ac ligula eget quam",
+          "title1": "<a href=\"index.html#accordion3-7\">La Paz County</a>",
+          "title2": "<a href=\"index.html#accordion3-7\">Maricopa County</a>",
+          "title3": "Mohave County",
+          "title4": "<a href=\"index.html#accordion3-7\">Navajo County</a>",
+          "title5": "<a href=\"index.html#accordion3-7\">Pima County</a>",
+          "title6": "<a href=\"index.html#accordion3-7\">Pinal County</a>",
+          "subtitle1": "Subtitle1",
+          "subtitle2": "Subtitle2",
+          "subtitle3": "Subtitle3",
+          "subtitle4": "Subtitle4",
+          "subtitle5": "Subtitle5",
+          "subtitle6": "Subtitle6",
+          "text1": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text2": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text3": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text4": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text5": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "text6": "# of precincts \n<br>total # of PC Slots\n<br>total # of statecommittee seats",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            },
+            "H5": {
+              "text-align": "center"
+            },
+            "H1": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showText": true,
+            "columns": "3",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "Steps to success",
+          "text": "Donec non augue eros. Praesent quis nunc metus. Duis vehicula nisl diam, in varius nibh consectetur eget. Sed quis magna id libero very molestie posuere. Mauris ac ligula eget quam",
+          "title1": "<a href=\"index.html#accordion3-7\">Santa Cruz County</a>",
+          "title2": "<a href=\"index.html#accordion3-7\">Yavapai County</a>",
+          "title3": "Yuma County",
+          "title4": "Get project result",
+          "title5": "Get project result",
+          "title6": "Get project result",
+          "subtitle1": "Subtitle1",
+          "subtitle2": "Subtitle2",
+          "subtitle3": "Subtitle3",
+          "subtitle4": "Subtitle4",
+          "subtitle5": "Subtitle5",
+          "subtitle6": "Subtitle6",
+          "text1": "# of precincts \n<br>total # of PC Slots \n<br>total # of statecommittee seats",
+          "text2": "# of precincts \n<br>total # of PC Slots \n<br>total # of statecommittee seats",
+          "text3": "# of precincts \n<br>total # of PC Slots \n<br>total # of statecommittee seats",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nemo aliquid laboriosam vero neque rerum sequi aut maiores voluptatem numquam.",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellendus culpa consequatur expedita iusto delectus accusamus unde aliquam quis perspiciatis.",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam dolores, illo quo corporis perferendis autem, rerum sunt ad quis? ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-2",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 3,
+            "tabsLeft": "5",
+            "tabsCenter": "5",
+            "tabsRight": "5",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Apache county<span></span></a>",
+          "textL1": "County Specific Letter for PCs\n<br><br><div>Nomination Paper <span style=\"background-color: inherit;\">(requires notary?)</span></div><div><span style=\"background-color: inherit;\"><br></span></div><div><span style=\"background-color: inherit;\">Partisan Nomination Petition (English)&nbsp;</span><br></div><div><br></div><div>Partisan Nomination Petition (Spanish)\n</div><div><br></div><div>Nomination Petition (Signature) Printing Instructions\n</div><div><br></div><div>2018 Candidate Filing Information?\n</div><div><br></div><div>Write-In PC Nomination Paper (deadline?)</div><div><br></div><div>Official Signature Requirements</div><br><div>Request Your Precinct Information</div>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Gila County<span></span></a>",
+          "textL2": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">La Paz County<span></span></a>",
+          "textL3": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Navajo County<span></span></a>",
+          "textL4": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Santa Cruz county<span></span></a>",
+          "textL5": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Cochise County<span></span></a>",
+          "textC1": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Graham County<span></span></a>",
+          "textC2": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Maricopa County<span></span></a>",
+          "textC3": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Pima County<span></span></a>",
+          "textC4": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">yavapai county<span></span></a>",
+          "textC5": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">coconino county<span></span></a>",
+          "textR1": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Greenlee County<span></span></a>",
+          "textR2": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Mohave County<span></span></a>",
+          "textR3": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Pinal County<span></span></a>",
+          "textR4": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p>Partisan Nomination Petition (English)\n</p><p>Partisan Nomination Petition (Spanish)\n</p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p>Write-In PC Nomination Paper (deadline?)\n</p><p>Official Signature Requirements</p><p>Request Your Precinct Information</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Yuma County Documents<span></span></a>",
+          "textR5": "County Specific Letter for PCs<br><br>\n<div>Nomination Paper Declaration of Qualification\n</div><div><br></div><div>Partisan Nomination Petition (English)\n</div><div><br></div><div>Partisan Nomination Petition (Spanish)\n</div><div><br></div><div>Nomination Petition (Signature) Printing Instructions\n</div><div><br></div><div>2018 Candidate Filing Information?\n</div><div><br></div><div>Write-In PC Nomination Paper (deadline?)\n</div><div><br></div><div>Official Signature Requirements</div><div><br></div><div>Request Your Precinct Information</div>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion3",
+          "_anchor": "accordion3-7",
+          "_styles": {
+            "DIV": {
+              "text-align": "center",
+              "color": "#757575"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/social.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "<span>Share this page!</span>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social1",
+          "_anchor": "social1-4"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/social.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "<span>Follow us</span>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social2",
+          "_anchor": "social2-5"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Tutorials</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu4",
+          "_anchor": "menu4-e"
+        }
+      ]
+    }
+  }
+}
