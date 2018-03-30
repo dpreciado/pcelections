@@ -3,7 +3,6 @@
 
 
 
-
 /*TITLE*/
 .alert,
 h1,
@@ -542,16 +541,6 @@ a:hover,
 .panel.active .panel-heading a span:after {
   background: #757575;
 }
-#header3-a SPAN {
-  font-size: 60px;
-  font-family: 'Arapey', sans-serif;
-}
-#header3-a H1 {
-  text-align: center;
-}
-#header3-a P {
-  text-align: center;
-}
 #testimonials2-j P {
   color: #ffffff;
 }
@@ -662,6 +651,9 @@ a:hover,
 #menu1-k .link[aria-expanded="true"],
 #menu1-k .dropdown-item[aria-expanded="true"] {
   color: #222!important;
+}
+#text1-m H3 {
+  text-align: center;
 }
 #menu4-g .hide-buttons .nav-btn {
   display: none !important;
