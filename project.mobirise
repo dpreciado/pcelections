@@ -114,8 +114,8 @@
                 "showText": true,
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
-                "title": "Alex Mayer",
-                "text": "Being a PC has changed my life. &nbsp;I never know how the party worked, and now I can really make a difference."
+                "title": "&nbsp;- Alex Mayer LD 16 PC",
+                "text": "\"Being a PC has changed my life. &nbsp;I never know how the party worked, and now I can really make a difference.\""
               },
               {
                 "active": false,
@@ -123,7 +123,7 @@
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
                 "title": "Patrick Seifter - PC LD 24",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores vitae, quasi dignissimos quo ipsam non, aliquam cupiditate facilis similique laboriosam optio mollitia sunt sed minima."
+                "text": "Representing our precincts is at the heart of Democracy. &nbsp;I am grateful for the opportunity and look forrward to having you&nbsp;"
               },
               {
                 "active": false,
