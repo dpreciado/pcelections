@@ -572,6 +572,9 @@ a:hover,
 #content6-2 P {
   color: #e5e5e5;
 }
+#text1-m H3 {
+  text-align: center;
+}
 #accordion3-7 DIV {
   text-align: center;
   color: #757575;
@@ -651,9 +654,6 @@ a:hover,
 #menu1-k .link[aria-expanded="true"],
 #menu1-k .dropdown-item[aria-expanded="true"] {
   color: #222!important;
-}
-#text1-m H3 {
-  text-align: center;
 }
 #menu4-g .hide-buttons .nav-btn {
   display: none !important;
