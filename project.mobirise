@@ -80,7 +80,7 @@
             }
           },
           "title": "<span style=\"font-weight: normal;\"><i>Precinct Committeeperson<br>Elections</i></span>",
-          "text": "Every two years our party opens its doors to a growing community. &nbsp;The Arizona Democratic Party has created this reasource to make the party more accesible to all the commiunities it represents. &nbsp;",
+          "text": "Every two years our party opens its doors to a growing community. &nbsp;The Arizona Democratic Party has created this page as a reasource to make the party more accesible to all the commiunities during this election cycle. &nbsp;",
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
           "alias": "spacem/components",
           "_tags": [
@@ -115,7 +115,7 @@
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
                 "title": "Alex Mayer",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates iusto non tenetur recusandae, laudantium omnis ratione natus minima, veniam exercitationem officia, ad illo obcaecati nemo."
+                "text": "Being a PC has changed my life. &nbsp;I never know how the party worked, and now I can really make a difference."
               },
               {
                 "active": false,
@@ -334,7 +334,7 @@
             "overlayOpacity": 0.5
           },
           "title": "About this resource",
-          "text": "The ADP aggregates this data from each county to provide greater access for all to become members of the democratic party. &nbsp;Whiel this is a convenient resource, it is the responsibility of each candidate to ensure all the necessary documention is complete. &nbsp;If you have any questions please contact your party chair at the following link: Party Chairs<br><br>You are able to turn in your signatures between April 30th and May30th close of business. &nbsp;We encourage you to work with your County and LD chairs to complete the process without error.&nbsp;",
+          "text": "The ADP aggregates this data from each county to provide greater access for all to become members of the democratic party. &nbsp;Whiel this is a convenient resource, it is the responsibility of each candidate to ensure all the necessary documention is complete. &nbsp;If you have any questions please contact your party chair at the following link: Help from your Dem County Party Chair<br><br>You are able to turn in your signatures between April 30th and May30th close of business. &nbsp;We encourage you to work with your County and LD chairs to complete the process without error.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
           "alias": "spacem/components",
           "_tags": [
