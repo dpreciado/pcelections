@@ -24,7 +24,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.7",
-    "uniqCompNum": 25,
+    "uniqCompNum": 28,
     "versionPublish": "4.6.7",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -47,11 +47,14 @@
       "components": [
         {
           "_params": {
-            "paddingTop": "3",
+            "paddingTop": 2,
             "paddingBottom": 2,
             "showTitle": true,
             "showSubtitle": true,
-            "showButtons": false,
+            "showButtons": true,
+            "showMedia": true,
+            "imageSize": 50,
+            "inverse": true,
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
@@ -72,22 +75,27 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "src": "https://www.youtube.com/watch?v=Z8oJV_mBY9g",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
             }
           },
-          "title": "<span style=\"font-weight: normal;\"><i>Precinct Committeeperson<br>Elections</i></span>",
-          "text": "Every two years our party opens its doors to a growing community. &nbsp;The Arizona Democratic Party has created this page as a reasource to make the party more accesible to all the commiunities during this election cycle. &nbsp;",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "title": "<span style=\"font-weight: normal;\"><i>Precinct Committeeperson\n</i></span><div><span style=\"font-weight: normal;\"><i>Elections</i></span></div>",
+          "text": "BE THE CHANGE - every two years our party opens its doors to a growing community.  The Arizona Democratic Party has created this page as a reasource to make the party more accesible to all the commiunities during this election cycle.",
+          "buttons": "<a data-app-btn=\"true\" href=\"index.html#text1-m\" class=\"btn btn-primary\" role=\"button\">learn more</a> ",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-o"
+          "_name": "header3",
+          "_anchor": "header3-p",
+          "_customCSS": "",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative header header3 mbr-parallax-background mbr-after-navbar\" data-rv-view=\"75\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg&quot;);\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.35; background-color: rgb(21, 21, 21);\"></div>\n    <div id=\"contact-info\" style=\"padding-top: 100px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n                 \n                \n\n                \n\n                <div class=\"col-lg-6 col-md-12 col-sm-12 col-xs-12 mbr-table-cell-lg\">\n                    \n                    <div class=\"row clear-md\">\n                        \n                      <div class=\"col-xs-12\">\n                         <div class=\"c-info\">\n                            <h1 class=\"styled mbr-editable-content\" code-editable-id=\"36\"><span style=\"font-weight: normal;\"><em>Precinct Committeeperson\n</em></span><div><span style=\"font-weight: normal;\"><em>Elections</em></span></div></h1>\n                            <p class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"37\">BE THE CHANGE!  Every two years there is tremendous opportunity for the Arizona Democratic Party to revitalize. We are all part of a growing community. The ADP has created this page as a resource to make the party more accessible to Democrats during this election cycle. \n<br>Don't wait! Become a PC!<br></p>\n\n                            <div><a href=\"index.html#text1-m\" class=\"btn btn-primary mbr-editable-button\" role=\"button\" code-editable-id=\"38\">learn more</a> </div>\n                         </div> \n                      </div>\n\n                    </div>\n                </div>\n\n\n                <div class=\"col-lg-6 col-md-12 col-sm-12 col-xs-12 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                      <figure class=\"mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/Z8oJV_mBY9g?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0\" width=\"1280\" height=\"720\" frameborder=\"0\" allowfullscreen=\"\"></iframe></figure>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -110,12 +118,20 @@
             "timeout": "4",
             "slides": [
               {
+                "active": false,
+                "showText": true,
+                "showTitle": true,
+                "image": "@THEME_PATH@/components/_images/header1.jpg",
+                "title": "&nbsp;- Damian Preciado PC LD 24 - Balsz Precinct&nbsp;",
+                "text": "\"Being a PC has changed my life.  I now have the opportunity to represent my community within the Party and know that we are heard.\""
+              },
+              {
                 "active": true,
                 "showText": true,
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
-                "title": "&nbsp;- Alex Mayer LD 16 PC",
-                "text": "\"Being a PC has changed my life. &nbsp;I never know how the party worked, and now I can really make a difference.\""
+                "title": "Sarah Martinez - PC LD 30",
+                "text": "\"Es un gran honor ser parte del cambio positivo en Arizona.<br>It is a great honor to be part of the positive change in Arizona.\"<br>"
               },
               {
                 "active": false,
@@ -123,15 +139,7 @@
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
                 "title": "Patrick Seifter - PC LD 24",
-                "text": "Representing our precincts is at the heart of Democracy. &nbsp;I am grateful for the opportunity and look forrward to having you&nbsp;"
-              },
-              {
-                "active": false,
-                "showText": true,
-                "showTitle": true,
-                "image": "@THEME_PATH@/components/_images/header1.jpg",
-                "title": "So and So, Pima County LD ??",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam mollitia incidunt vero cupiditate obcaecati iusto tempora unde! Numquam officiis, quae adipisci quam laudantium nulla modi."
+                "text": "Representing our precincts is at the heart of Democracy. &nbsp;I am grateful for the opportunity and look forward to strenghting our party."
               }
             ]
           },
@@ -309,7 +317,7 @@
           "_name": "content6",
           "_anchor": "content6-2",
           "_customCSS": "H1 {\n  text-align: center;\n  color: #ffffff;\n}\nP {\n  color: #e5e5e5;\n}\n",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative mbr-section mbr-section--no-padding content6\" data-rv-view=\"22\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg&quot;); padding-top: 0px; padding-bottom: 0px;\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.75; background-color: rgb(21, 21, 21);\"></div>\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n         \n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgw 3\" style=\"display: block;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"166\">Santa Cruz County</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"167\">24 Precincts \n<br>135 PC Positions \n<br><br></p>\n                                <span class=\"block-number\">13</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgc 3\" style=\"display: block;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"168\">Yavapai County</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"169\">45 Precincts \n<br>267 PC Positions \n<br><br></p>\n                                <span class=\"block-number\">14</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgb 3\" style=\"display: block;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"170\">Yuma County</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"171\">43 Precincts \n<br>273 PC Positions \n<br><br></p>\n                                <span class=\"block-number\">15</span>\n                            </div>\n                        </div>\n            \n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgc 3\" style=\"display: none;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"172\">Get project result</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"173\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nemo aliquid laboriosam vero neque rerum sequi aut maiores voluptatem numquam.</p>\n                                <span class=\"block-number\">4</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgb 3\" style=\"display: none;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"174\">Get project result</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"175\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellendus culpa consequatur expedita iusto delectus accusamus unde aliquam quis perspiciatis.</p>\n                                <span class=\"block-number\">5</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgw 3\" style=\"display: none;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"176\">Get project result</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"177\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam dolores, illo quo corporis perferendis autem, rerum sunt ad quis? </p>\n                                <span class=\"block-number\">6</span>\n                            </div>\n                        </div>\n            </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative mbr-section mbr-section--no-padding content6\" data-rv-view=\"22\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg&quot;); padding-top: 0px; padding-bottom: 0px;\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.75; background-color: rgb(21, 21, 21);\"></div>\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n         \n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgw 3\" style=\"display: block;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"12\">Santa Cruz County</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"13\">24 Precincts \n<br>135 PC Positions \n<br><br></p>\n                                <span class=\"block-number\">13</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgc 3\" style=\"display: block;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"14\">Yavapai County</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"15\">45 Precincts \n<br>267 PC Positions \n<br><br></p>\n                                <span class=\"block-number\">14</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgb 3\" style=\"display: block;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"16\">Yuma County</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"17\">43 Precincts \n<br>273 PC Positions \n<br><br></p>\n                                <span class=\"block-number\">15</span>\n                            </div>\n                        </div>\n            \n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgc 3\" style=\"display: none;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"18\">Get project result</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"19\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nemo aliquid laboriosam vero neque rerum sequi aut maiores voluptatem numquam.</p>\n                                <span class=\"block-number\">4</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgb 3\" style=\"display: none;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"20\">Get project result</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"21\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repellendus culpa consequatur expedita iusto delectus accusamus unde aliquam quis perspiciatis.</p>\n                                <span class=\"block-number\">5</span>\n                            </div>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-lg-4 col-xs-12 bgw 3\" style=\"display: none;\">\n                            <div class=\"page_head text-left title-block\">\n                                \n                                <h1 class=\"styled mbr-editable-content\" code-editable-id=\"22\">Get project result</h1>\n                                <div class=\"separator\"></div>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"23\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam dolores, illo quo corporis perferendis autem, rerum sunt ad quis? </p>\n                                <span class=\"block-number\">6</span>\n                            </div>\n                        </div>\n            </div>\n        </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
@@ -321,7 +329,7 @@
             "showTitle": true,
             "showText": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -334,7 +342,7 @@
             "overlayOpacity": 0.5
           },
           "title": "About this resource",
-          "text": "The ADP aggregates this data from each county to provide greater access for all to become members of the democratic party. &nbsp;Whiel this is a convenient resource, it is the responsibility of each candidate to ensure all the necessary documention is complete. &nbsp;If you have any questions please contact your party chair at the following link: Help from your Dem County Party Chair<br><br>You are able to turn in your signatures between April 30th and May30th close of business. &nbsp;We encourage you to work with your County and LD chairs to complete the process without error.&nbsp;",
+          "text": "The Arizona Democratic Party aggregates this data from each county to provide greater access for all to become elected members of the Party.  This resource is provided for your convenience.  If is however the responsibility of each candidate to ensure all the necessary documentation is complete.  If you have any questions please contact your party chair at the following link: Help from your Dem County Party Chair (get info from barb for link here)<br>\n<br><b>We encourage you to work with your County and LD chairs to complete the process without error. &nbsp;</b><br>",
           "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
           "alias": "spacem/components",
           "_tags": [
@@ -344,6 +352,9 @@
           "_anchor": "text1-m",
           "_styles": {
             "H3": {
+              "text-align": "center"
+            },
+            "P": {
               "text-align": "center"
             }
           }
@@ -360,7 +371,7 @@
             "tabsRight": "5",
             "parallax": false,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
             "bgColorRadio": true,
             "bgColor": "#fff",
             "bgVideoRadio": false,
@@ -382,39 +393,39 @@
           "title3": "cooperative work",
           "title4": "brainstorming",
           "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Apache county<span></span></a>",
-          "textL1": "County Specific Letter for PCs\n<br><br><div><a href=\"assets/files/PCNomination-Paper-Declaration-of-QualificationApache.pdf\" target=\"_blank\">Nomination Paper</a></div><div><span style=\"background-color: inherit;\"><br></span></div><div><span style=\"background-color: inherit;\"><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)&nbsp;</a></span><br></div><div><br></div><div><a href=\"assets/files/2016NewCandidate%20Petition%20Nonpartisan_10-26-2015%20(Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)</a>\n</div><div><br></div><div><a href=\"assets/files/Printing4.pdf\" target=\"_blank\">Nomination Petition Printing Instructions</a>\n</div><div><br></div><div><a href=\"assets/files/WEBSITE . Apache County Democrat PC Roster 2018.pdf\" target=\"_blank\">Available PC Positions Per Precinct&nbsp;</a></div><div><a href=\"assets/files/WEBSITE . Apache County Democrat PC Roster 2018.pdf\" target=\"_blank\">&amp;&nbsp;</a><span style=\"background-color: inherit;\"><a href=\"assets/files/WEBSITE . Apache County Democrat PC Roster 2018.pdf\" target=\"_blank\">Official Signature Requirements</a></span></div><br><div><br></div>",
+          "textL1": "<a href=\"assets/files/PC Candidate Letter.pdf\" target=\"_blank\">ADP&nbsp;Letter for PCs\n</a><br><br><div><a href=\"assets/files/apachePCNomination-Paper-Declaration-of-Qualification.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification&nbsp;</a></div><div><br></div><div><span style=\"background-color: inherit;\"><a href=\"assets/files/apache1candidate_petition_partisan_10-26-2015.pdf\" target=\"_blank\">Partisan Nomination Petition (English)&nbsp;</a></span><br></div><div><br></div><div><a href=\"assets/files/apachespanCandidate-Petition-Partisan_10-26-2015-Spanish.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></div><div><br></div><div><a href=\"assets/files/Printing4.pdf\" target=\"_blank\">Nomination Petition Printing G</a>uidelines</div><div><br></div><div><a href=\"assets/files/WEBSITE . Apache County Democrat PC Roster 2018.pdf\" target=\"_blank\">Available PC Positions Per Precinct&nbsp;</a></div><div><a href=\"assets/files/WEBSITE . Apache County Democrat PC Roster 2018.pdf\" target=\"_blank\">&amp;&nbsp;</a><span style=\"background-color: inherit;\"><a href=\"assets/files/WEBSITE . Apache County Democrat PC Roster 2018.pdf\" target=\"_blank\">Official Signature Requirements</a></span></div><br><div><br></div>",
           "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Gila County<span></span></a>",
-          "textL2": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textL2": "<p><a href=\"assets/files/PC Candidate Letter.pdf\" target=\"_blank\">ADP Letter for PCs \n</a></p><p><a href=\"assets/files/Gila PC Nomination Paper '18.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification</a><br></p><p><a href=\"assets/files/Gila Nom Pet - Partisan Candidate.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/coconinospanCandidate-Petition-Partisan_10-26-2015-Spanish - Copy.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></span></p><p><span style=\"background-color: inherit;\">Signature Requirements (max 10 per PC Petition)</span><br></p><p>Request Your Precinct Information - Gila Recorder 928-402-8740</p>",
           "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">La Paz County<span></span></a>",
-          "textL3": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textL3": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\">Nomination Petition Printing Guidelines\r</span></p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
           "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Navajo County<span></span></a>",
-          "textL4": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textL4": "<p>County Specific Letter for PCs\n</p><p><a href=\"assets/files/NavajoNomination Paper Statewide Partisan2017fillable.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification\n</a></p><p><a href=\"assets/files/Navajocandidate_petition_partisan_web.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/navspanCandidatePetitionPartisan_10-26-2015 (Spanishweb).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/NavajoPetition_Printing_Instructions.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></span></p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span></p><br><p><span style=\"background-color: inherit;\"><br></span></p>",
           "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Santa Cruz county<span></span></a>",
-          "textL5": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textL5": "<p>Must Request from Melinda Meek&nbsp;<span style=\"background-color: inherit;\">elections director,&nbsp;</span><span style=\"background-color: inherit;\">she insisted.</span></p><p>Elections Director\n</p><p><span style=\"background-color: inherit;\">Ph: 520-375-7808</span><br></p>",
           "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
           "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Cochise County<span></span></a>",
-          "textC1": "<p><a href=\"assets/files/PCPamphlet2018.pdf\" target=\"_blank\">County Specific Letter for PCs</a>\n</p><p><a href=\"assets/files/cochisenominationPCNomination3Part.pdf\" target=\"_blank\">Nomination Paper</a></p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)</a>\n</p><p><a href=\"assets/files/NominatingPetitionInstructions.pdf\" target=\"_blank\">Nomination Petition Printing Instructions</a></p><p><a href=\"assets/files/CochisePCSignatureRequirements2018.pdf\" target=\"_blank\">Available PC Positions Per Precinct \n</a><span style=\"background-color: inherit;\"><a href=\"assets/files/CochisePCSignatureRequirements2018.pdf\" target=\"_blank\">&amp; </a><br><a href=\"assets/files/CochisePCSignatureRequirements2018.pdf\" target=\"_blank\">Official Signature Requirements</a></span></p><p><span style=\"background-color: inherit;\">Request Your Precinct Information -&nbsp;</span><span style=\"background-color: inherit;\">(Cochise Recorder's Office 520-432-8358)</span><br></p>",
+          "textC1": "<p><a href=\"assets/files/PCPamphlet2018.pdf\" target=\"_blank\">County Specific Letter for PCs</a>\n</p><p><a href=\"assets/files/cochisenominationPCNomination3Part.pdf\" target=\"_blank\">Nomination Paper</a>&nbsp;(requires notary)</p><p><a href=\"assets/files/cochiseCandidate_petition_partisan_English.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/CandidatePetitionPartisanSpanish.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><a href=\"assets/files/NominatingPetitionInstructions.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines</a></p><p><a href=\"assets/files/CochisePCSignatureRequirements2018.pdf\" target=\"_blank\">Available PC Positions Per Precinct \n</a><span style=\"background-color: inherit;\"><a href=\"assets/files/CochisePCSignatureRequirements2018.pdf\" target=\"_blank\">&amp; </a><br><a href=\"assets/files/CochisePCSignatureRequirements2018.pdf\" target=\"_blank\">Official Signature Requirements</a></span></p><p><span style=\"background-color: inherit;\">Request Your Precinct Information -&nbsp;</span><span style=\"background-color: inherit;\">Cochise Recorder 520-432-8358</span><br></p>",
           "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Graham County<span></span></a>",
-          "textC2": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textC2": "<p>Graham&nbsp;<a href=\"assets/files/graham pc intro.pdf\" target=\"_blank\">County Elections Dept</a>&nbsp;<a href=\"assets/files/graham pc intro.pdf\" target=\"_blank\">Letter for P</a>Cs</p><p><a href=\"assets/files/graham dec of qualification.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification\n</a></p><p><a href=\"assets/files/grahamcandidate_petition_partisan_10-26-2015 - Copy.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/CandidatePetitionPartisanSpanish.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></span></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/rotated_rotated doc.pdf\" target=\"_blank\">Available PC Positions Per Precinct&nbsp;\n</a></span><span style=\"background-color: inherit;\"><a href=\"assets/files/rotated_rotated doc.pdf\" target=\"_blank\">&amp; Official Signature Requirements</a></span><br></p><p><span style=\"background-color: inherit;\">Request Your Precinct Information - Graham Recorder 928-428-2828<br></span><br></p>",
           "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Maricopa County<span></span></a>",
-          "textC3": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textC3": "<p>County Specific Letter for PCs\n</p><p><a href=\"assets/files/MC2018 PC Nomination Paper FILLABLE.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification\n</a></p><p><a href=\"assets/files/MARICOPA REFORMATTED candidate_petition_partisan_10-26-2015 FILLABLE.PDF\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/MSpanPartisan%20Candidate%20Form%20Spanish(1).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></span></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/MCDEM PC BY PRECINCT.pdf\" target=\"_blank\">Official Signature Requirements</a></span><br></p><p><a href=\"https://recorder.maricopa.gov/reviewer/default.htm?DistrictType=G&amp;DistrictCode=22\" target=\"_blank\">Request Your Precinct Information</a></p>",
           "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Pima County<span></span></a>",
-          "textC4": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textC4": "<p>County Specific Letter for PCs\n</p><p><a href=\"assets/files/PIMA nomination paper.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification</a>&nbsp;(requires notary)</p><p><a href=\"assets/files/PIMAPetition_Partisan_102615.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/PimaspanCandidate-Petition-Partisan_10-26-2015-Spanish - Copy.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></p><p><a href=\"assets/files/Pima Combined Signature Req.pdf\" target=\"_blank\">Available PC Positions Per Precinct \n</a><span style=\"background-color: inherit;\"><a href=\"assets/files/Pima Combined Signature Req.pdf\" target=\"_blank\">&amp; Official Signature Requirements</a></span><br></p><p><a href=\"https://pimamaps.pima.gov/Html5Viewer/index.html?configBase=https://pimamaps.pima.gov/Geocortex/Essentials/REST/sites/mainsite/viewers/mainmap/virtualdirectory/Resources/Config/Default\" target=\"_blank\">Request Your Precinct Information</a></p>",
           "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">yavapai county<span></span></a>",
-          "textC5": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textC5": "<p><a href=\"assets/files/01 - PC Candidate Packet Letter.pdf\" target=\"_blank\">Yavapai&nbsp;County Letter for PCs\n</a></p><p><a href=\"assets/files/03 - Nomination Paper - Partisan.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification\n</a></p><p><a href=\"assets/files/04 - Nomination Petition - Partisan.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/05 - Nomination Petition - Partisan - SPANISH.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></p><p><a href=\"assets/files/02 - PC Signature Reqmts 2018.pdf\" target=\"_blank\">Available PC Positions Per Precinct \n</a><span style=\"background-color: inherit;\"><a href=\"assets/files/02 - PC Signature Reqmts 2018.pdf\" target=\"_blank\">&amp;&nbsp;</a></span><span style=\"background-color: inherit;\"><a href=\"assets/files/02 - PC Signature Reqmts 2018.pdf\" target=\"_blank\">Official Signature Requirements</a></span><br></p><p><br></p>",
           "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
           "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">coconino county<span></span></a>",
-          "textR1": "<p><a href=\"assets/files/coconino%20Number%20of%20PCs%202018%20Final.pdf\"></a>County Specific Letter for PCs\n</p><p><a href=\"assets/files/coconino2017 0814 - 2018-PC_Nomination_Paper.pdf\" target=\"_blank\">Nomination Paper</a></p><p><a href=\"assets/files/coconino12017%201213%20BOLD%20-%20Partisan%20Candidate%20Petition_201801091743203206.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions - requested from county, waiting for reply from Penny</p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/coconino Number of PCs 2018 Final.pdf\" target=\"_blank\">Available PC Positions Per Precinct</a></span><br></p><p><a href=\"assets/files/coconinoSignature%20Requirements%20PCs%202018%20Final_201803231543418230.pdf\" target=\"_blank\">Official Signature Requirements</a></p><p>Request Your Precinct Information&nbsp;<span style=\"background-color: inherit;\">(Coconino Recorder ?)</span></p>",
+          "textR1": "<p><a href=\"assets/files/coconino%20Number%20of%20PCs%202018%20Final.pdf\"></a><a href=\"assets/files/PC Candidate Letter.pdf\" target=\"_blank\">ADP Letter for PCs\n</a></p><p><a href=\"assets/files/coconinoPC_Nomination_Paper.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification \n</a></p><p><a href=\"assets/files/coconino12017%201213%20BOLD%20-%20Partisan%20Candidate%20Petition_201801091743203206.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a><br></p><p><a href=\"assets/files/coconinospanCandidate-Petition-Partisan_10-26-2015-Spanish - Copy.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines</a></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/coconino Number of PCs 2018 Final.pdf\" target=\"_blank\">Available PC Positions Per Precinct</a></span><br></p><p><a href=\"assets/files/coconinoSignature%20Requirements%20PCs%202018%20Final_201803231543418230.pdf\" target=\"_blank\">Official Signature Requirements</a></p><p>Request Your Precinct Information -&nbsp;<span style=\"background-color: inherit;\">Coconino Recorder 928-679-7850</span></p>",
           "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Greenlee County<span></span></a>",
-          "textR2": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textR2": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\">Nomination Petition Printing Guidelines\r</span></p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
           "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Mohave County<span></span></a>",
-          "textR3": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textR3": "<p>County Specific Letter for PCs\n</p><p><a href=\"assets/files/MohavePartisanNominationPaper.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification\n</a></p><p><a href=\"assets/files/mPartisan Candidate Form(1).pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></p><p><a href=\"assets/files/MSpanPartisan Candidate Form Spanish(1).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></span></p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information - Mohave Recorder (928) 753-0701</p>",
           "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Pinal County<span></span></a>",
-          "textR4": "<p>County Specific Letter for PCs\n</p><p>Nomination Paper Declaration of Qualification\n</p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p>Nomination Petition (Signature) Printing Instructions\n</p><p>2018 Candidate Filing Information?\n</p><p><span style=\"background-color: inherit;\">Official Signature Requirements</span><br></p><p>Request Your Precinct Information</p>",
+          "textR4": "<p>County Specific Letter for PCs\n</p><p><a href=\"assets/files/Pinal County Partisan Nomination Paper 2016 fillable.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification</a>&nbsp;<span style=\"background-color: inherit;\">(requires notary)</span></p><p><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</p><p><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></p><p><span style=\"background-color: inherit;\">Nomination Petition Printing Guidelines\n</span></p><p><span style=\"background-color: inherit;\"><a href=\"assets/files/Pinal Democrats PC Signature Requirements.pdf\" target=\"_blank\">Available PC Positions Per Precinct&nbsp; \n</a></span><span style=\"background-color: inherit;\"><a href=\"assets/files/Pinal Democrats PC Signature Requirements.pdf\" target=\"_blank\">&amp; Official&nbsp;</a></span><span style=\"background-color: inherit;\"><a href=\"assets/files/Pinal Democrats PC Signature Requirements.pdf\" target=\"_blank\">Signature Requirements</a></span><br></p><p><span style=\"background-color: inherit;\">Request Your Precinct Information - (Pinal Recorder's Office (520) 866-6830)<br></span><br></p>",
           "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Yuma County<span></span></a>",
-          "textR5": "County Specific Letter for PCs<br><br>\n<div>Nomination Paper Declaration of Qualification\n</div><div><br></div><div><a href=\"assets/files/candidate_petition_nonpartisan_ENGLISH.pdf\" target=\"_blank\">Partisan Nomination Petition (English)</a>\n</div><div><br></div><div><a href=\"assets/files/2016NewCandidate Petition Nonpartisan_10-26-2015 (Spanish).pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></div><div><br></div><div>Nomination Petition (Signature) Printing Instructions\n</div><div><br></div><div>2018 Candidate Filing Information?\n</div><div><br></div><div><br></div><div>Official Signature Requirements</div><div><br></div><div>Request Your Precinct Information</div>",
+          "textR5": "<a href=\"assets/files/YumaPCElection%20Handbook.pdf\" target=\"_blank\">Yuma Elections Dept PC Handbook</a><a href=\"assets/files/yumaPCCANDIDATELETTER.pdf\" target=\"_blank\"><br></a><br>Yuma&nbsp;<a href=\"assets/files/yumaPCCANDIDATELETTER.pdf\" target=\"_blank\">County Specific Letter for PCs</a><br><br>\n<div><a href=\"assets/files/yumaNOMINATIONPAPER.pdf\" target=\"_blank\">Nomination Paper Declaration of Qualification</a>&nbsp;</div><div>(requires notary)</div><div><br></div><div><a href=\"assets/files/Yuma PC Petition - English.pdf\" target=\"_blank\">Partisan Nomination Petition (English)\n</a></div><div><br></div><div><a href=\"assets/files/yumaspanNOMINATIONPAPER.pdf\" target=\"_blank\">Partisan Nomination Petition (Spanish)\n</a></div><div><br></div><div><a href=\"assets/files/Printing Guidelines PC elections.pdf\" target=\"_blank\">Nomination Petition Printing Guidelines\n</a></div><div><br></div><a href=\"assets/files/yumaPCSignatureReqmts (1).pdf\" target=\"_blank\">Available PC Positions Per Precinct&nbsp;\n</a><div><a href=\"assets/files/yumaPCSignatureReqmts (1).pdf\" target=\"_blank\">&amp; Official Signature Requirements</a><br><div><br></div><div>Request your Precinct Information - &nbsp;Yuma Recorders office (928) 373-6034</div></div>",
           "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
           "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
           "alias": "spacem/components",
@@ -470,13 +481,13 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#989898"
+              "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#989898"
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#989898"
+              "color": "#ffffff"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -488,20 +499,20 @@
               "color": "#222"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
+              "background": "#130e0c"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
+              "background": "#291e19!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#fff"
+              "background": "#33251f"
             },
             ".bg-color.transparent .link": {
-              "color": "#989898",
+              "color": "#ffffff",
               "transition": "none"
             },
             ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
-              "background": "#989898"
+              "background": "#ffffff"
             },
             ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
               "background": "transparent"
@@ -520,21 +531,22 @@
             "logo": true,
             "sticky": true,
             "transparent": false,
-            "bgColor": "#fff",
+            "bgColor": "#33251f",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#989898",
+            "fontColor": "#ffffff",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Home</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Who we Are</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Our Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">ADP Bylaws</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Who we Are</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">Home</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Who we Are</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.azdem.org/adopted-resolutions-platform\" target=\"_blank\">Our Platform</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://www.azdem.org/sites/azdems/files/ADP_Bylaws%20Amended%20May%2020%202017.pdf\" target=\"_blank\">ADP Bylaws</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://secure.actblue.com/contribute/page/adpwebsite\" aria-expanded=\"false\" target=\"_blank\">Donate</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li>",
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/adpcircle-2-100x100.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
@@ -544,6 +556,89 @@
           ],
           "_name": "menu1",
           "_anchor": "menu1-k"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#212121"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "Terms of Use &amp; Privacy Policy\n<br><br>Subscribed to Accessibility standards\n<br>Subscribed to Google Analytics\n<br>\n<br>Paid for by the Arizona Democratic Party \n<br>Not Authorized by Any Candidate or Candidate Committee&nbsp;<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-r",
+          "_styles": {
+            "SPAN": {
+              "text-align": "left"
+            }
+          }
         }
       ]
     },
