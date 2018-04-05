@@ -582,9 +582,6 @@ a:hover,
   text-align: center;
   color: #757575;
 }
-#social1-4 .mbr-section-title SPAN {
-  color: #ffffff;
-}
 #menu1-k .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -658,8 +655,22 @@ a:hover,
 #menu1-k .dropdown-item[aria-expanded="true"] {
   color: #222!important;
 }
-#footer2-r SPAN {
-  text-align: left;
+#custom-html-u {
+  /* Type valid CSS here */
+}
+#custom-html-u .my-image {
+  width: 100%;
+}
+#social1-w .mbr-section-title SPAN {
+  color: #151515;
+}
+#custom-html-v .clearbox {
+  font-size: 18px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  border: 1px solid black ;
+  text-align: center ;
+  padding: 10px ;
 }
 #menu4-g .hide-buttons .nav-btn {
   display: none !important;
