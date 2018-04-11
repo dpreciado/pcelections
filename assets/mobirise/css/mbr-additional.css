@@ -547,6 +547,12 @@ a:hover,
 #testimonials2-j H5 {
   color: #e5e5e5;
 }
+#counters1-1j P {
+  text-align: center;
+}
+#counters1-1j DIV {
+  color: #e5e5e5;
+}
 #content6-0 H1 {
   text-align: center;
   color: #ffffff;
@@ -662,7 +668,7 @@ a:hover,
   width: 100%;
 }
 #social1-w .mbr-section-title SPAN {
-  color: #151515;
+  color: #ffffff;
 }
 #custom-html-v .clearbox {
   font-size: 18px ;

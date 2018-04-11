@@ -24,7 +24,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.7",
-    "uniqCompNum": 55,
+    "uniqCompNum": 57,
     "versionPublish": "4.6.7",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -92,7 +92,7 @@
           "_name": "header3",
           "_anchor": "header3-p",
           "_customCSS": "",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative header header3 mbr-parallax-background mbr-after-navbar\" data-rv-view=\"75\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg&quot;);\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.35; background-color: rgb(21, 21, 21);\"></div>\n    <div id=\"contact-info\" style=\"padding-top: 100px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n                 \n                \n\n                \n\n                <div class=\"col-lg-6 col-md-12 col-sm-12 col-xs-12 mbr-table-cell-lg\">\n                    \n                    <div class=\"row clear-md\">\n                        \n                      <div class=\"col-xs-12\">\n                         <div class=\"c-info\">\n                            <h1 class=\"styled mbr-editable-content\" code-editable-id=\"31\"><span style=\"font-weight: normal;\"><em>Precinct Committeeperson\n</em></span><div><span style=\"font-weight: normal;\"><em>Elections</em></span></div></h1>\n                            <p class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"32\">BE THE CHANGE!  Every two years there is tremendous opportunity for the Arizona Democratic Party to revitalize. We are all part of a growing community. The ADP has created this page as a resource to make the party more accessible to Democrats during this election cycle. \n<br>Don't wait! Become a PC!<br></p>\n\n                            <div><a href=\"index.html#text1-m\" class=\"btn btn-primary mbr-editable-button\" role=\"button\" code-editable-id=\"33\">learn more</a> </div>\n                         </div> \n                      </div>\n\n                    </div>\n                </div>\n\n\n                <div class=\"col-lg-6 col-md-12 col-sm-12 col-xs-12 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                      <figure class=\"mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/Z8oJV_mBY9g?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0\" width=\"1280\" height=\"720\" frameborder=\"0\" allowfullscreen=\"\"></iframe></figure>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative header header3 mbr-parallax-background mbr-after-navbar\" data-rv-view=\"75\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg&quot;);\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.35; background-color: rgb(21, 21, 21);\"></div>\n    <div id=\"contact-info\" style=\"padding-top: 100px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n                 \n                \n\n                \n\n                <div class=\"col-lg-6 col-md-12 col-sm-12 col-xs-12 mbr-table-cell-lg\">\n                    \n                    <div class=\"row clear-md\">\n                        \n                      <div class=\"col-xs-12\">\n                         <div class=\"c-info\">\n                            <h1 class=\"styled mbr-editable-content\" code-editable-id=\"27\"><span style=\"font-weight: normal;\"><em>Precinct Committeeperson\n</em></span><div><span style=\"font-weight: normal;\"><em>Elections</em></span></div></h1>\n                            <p class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"28\">BE THE CHANGE!  Every two years there is tremendous opportunity for the Arizona Democratic Party to revitalize. We are all part of a growing community. The ADP has created this page as a resource to make the party more accessible to Democrats during this election cycle. \n<br>Don't wait! Become a PC!<br></p>\n\n                            <div><a href=\"index.html#text1-m\" class=\"btn btn-primary mbr-editable-button\" role=\"button\" code-editable-id=\"29\">learn more</a> </div>\n                         </div> \n                      </div>\n\n                    </div>\n                </div>\n\n\n                <div class=\"col-lg-6 col-md-12 col-sm-12 col-xs-12 mbr-table-cell-lg image-size\" style=\"width: 50%;\">\n                      <figure class=\"mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/Z8oJV_mBY9g?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0\" width=\"1280\" height=\"720\" frameborder=\"0\" allowfullscreen=\"\"></iframe></figure>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
@@ -118,15 +118,15 @@
             "timeout": "4",
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "showText": true,
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
                 "title": "&nbsp;- Damian Preciado PC LD 24 - Balsz Precinct&nbsp;",
-                "text": "\"Being a PC has changed my life.  I now have the opportunity to represent my community within the Party and know that we are heard.\""
+                "text": "\"Being a PC has changed my life.  I now have the chance to represent my community within the Party and know that we are heard.\""
               },
               {
-                "active": true,
+                "active": false,
                 "showText": true,
                 "showTitle": true,
                 "image": "@THEME_PATH@/components/_images/header1.jpg",
@@ -155,6 +155,47 @@
               "color": "#ffffff"
             },
             "H5": {
+              "color": "#e5e5e5"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "State",
+          "title2": "Counties",
+          "title3": "Legislative Districts",
+          "title4": "Precincts",
+          "number1": "1",
+          "number2": "15",
+          "number3": "30",
+          "number4": "1400",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "counters1",
+          "_anchor": "counters1-1j",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            },
+            "DIV": {
               "color": "#e5e5e5"
             }
           }
@@ -567,7 +608,7 @@
           "_anchor": "social1-w",
           "_styles": {
             ".mbr-section-title SPAN": {
-              "color": "#151515"
+              "color": "#ffffff"
             }
           }
         },
@@ -655,7 +696,7 @@
               "src": "@THEME_PATH@/components/_images/inst_6.jpg"
             }
           },
-          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards<br>Suscribed to&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><a href=\"page3.html\">Terms and Conditions</a><br><a href=\"page1.html\">Privacy Policy</a>&nbsp;<br>",
+          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards &amp;&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><br><a href=\"page3.html\">Terms and Conditions</a>&nbsp;&amp;&nbsp;<a href=\"page1.html\">Privacy Policy</a><br>Copyright (c) 2018 White Hat Technologies<a href=\"page1.html\"><br></a>&nbsp;<br>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
@@ -826,7 +867,7 @@
               "src": "@THEME_PATH@/components/_images/inst_6.jpg"
             }
           },
-          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards<br>Suscribed to&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><a href=\"page3.html\">Terms and Conditions</a><br><a href=\"page1.html\">Privacy Policy</a>&nbsp;<br>",
+          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards &amp;&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><br><a href=\"page3.html\">Terms and Conditions</a>&nbsp;&amp;&nbsp;<a href=\"page1.html\">Privacy Policy</a><br>Copyright (c) 2018 White Hat Technologies<a href=\"page1.html\"><br></a>&nbsp;<br>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
@@ -1031,7 +1072,7 @@
               "src": "@THEME_PATH@/components/_images/inst_6.jpg"
             }
           },
-          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards<br>Suscribed to&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><a href=\"page3.html\">Terms and Conditions</a><br><a href=\"page1.html\">Privacy Policy</a>&nbsp;<br>",
+          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards &amp;&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><br><a href=\"page3.html\">Terms and Conditions</a>&nbsp;&amp;&nbsp;<a href=\"page1.html\">Privacy Policy</a><br>Copyright (c) 2018 White Hat Technologies<a href=\"page1.html\"><br></a>&nbsp;<br>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
@@ -1274,7 +1315,7 @@
               "src": "@THEME_PATH@/components/_images/inst_6.jpg"
             }
           },
-          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards<br>Suscribed to&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><a href=\"page3.html\">Terms and Conditions</a><br><a href=\"page1.html\">Privacy Policy</a>&nbsp;<br>",
+          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards &amp;&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><br><a href=\"page3.html\">Terms and Conditions</a>&nbsp;&amp;&nbsp;<a href=\"page1.html\">Privacy Policy</a><br>Copyright (c) 2018 White Hat Technologies<a href=\"page1.html\"><br></a>&nbsp;<br>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
@@ -1483,7 +1524,7 @@
               "src": "@THEME_PATH@/components/_images/inst_6.jpg"
             }
           },
-          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards<br>Suscribed to&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><a href=\"page3.html\">Terms and Conditions</a><br><a href=\"page1.html\">Privacy Policy</a>&nbsp;<br>",
+          "copyright": "Suscribed to <a href=\"page2.html\">Accessability </a>standards &amp;&nbsp;<a href=\"https://www.google.com/analytics/analytics/#?modal_active=none\" target=\"_blank\">Google Analytics</a><br><br><a href=\"page3.html\">Terms and Conditions</a>&nbsp;&amp;&nbsp;<a href=\"page1.html\">Privacy Policy</a><br>Copyright (c) 2018 White Hat Technologies<a href=\"page1.html\"><br></a>&nbsp;<br>",
           "alias": "spacem/components",
           "_tags": [
             "Theme"
