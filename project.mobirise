@@ -279,7 +279,7 @@
           "_params": {
             "logo": true,
             "sticky": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#33251f",
             "fontSize": 0.75,
             "fontName": {},
@@ -291,12 +291,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/adplogo-icon-130x128.png",
+              "src": "@PROJECT_PATH@/assets/images/az-dems-logo-main-logo-3-171x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "home.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "icons": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/azdemparty?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-twitter\"></i></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/AZDemParty/\" data-toolbar=\"-mbrFonts,-mbrFontSize\" class=\"\"><i class=\"icon-facebook\"></i></a>   ",
@@ -330,7 +329,7 @@
             },
             "overlay": true,
             "overlayColor": "#151515",
-            "overlayOpacity": "0.7"
+            "overlayOpacity": "0.5"
           },
           "media": {
             "image": {
@@ -347,7 +346,7 @@
             }
           },
           "title": "<span style=\"font-weight: normal;\"><i>Precinct Committeeperson</i></span><span style=\"font-weight: normal;\"><i><br></i></span><i style=\"font-size: 84px; font-weight: normal; background-color: inherit;\">Elections</i>",
-          "text": "BE THE CHANGE, Every two years there is tremendous opportunity for the Arizona Democratic Party to revitalize. We are all part of a growing community. The ADP has created this page as a resource to make the party more accessible to Democrats during this election cycle.  The window to get on the ballot is April 30-May 30.  Don't wait! Become a PC!",
+          "text": "BE THE CHANGE, Every two years there is tremendous opportunity for the Arizona Democratic Party to revitalize. We are all part of a growing community. The ADP has created this page as a resource to make the party more accessible to Democrats during this election cycle.  The window to get on the ballot is March 7th - April 6th.  Don't wait! Become a PC!",
           "buttons": "<a data-app-btn=\"true\" href=\"home.html#text1-m\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
           "alias": "spacem/components",
           "_tags": [
@@ -948,7 +947,7 @@
           "_params": {
             "logo": true,
             "sticky": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#33251f",
             "fontSize": 0.75,
             "fontName": {},
@@ -960,7 +959,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/adplogo-icon-130x128.png",
+              "src": "@PROJECT_PATH@/assets/images/az-dems-logo-main-logo-3-171x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "home.html",
@@ -1214,7 +1213,7 @@
           "_params": {
             "logo": true,
             "sticky": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#33251f",
             "fontSize": 0.75,
             "fontName": {},
@@ -1226,7 +1225,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/adplogo-icon-130x128.png",
+              "src": "@PROJECT_PATH@/assets/images/az-dems-logo-main-logo-3-171x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "home.html",
@@ -1441,7 +1440,7 @@
           "_params": {
             "logo": true,
             "sticky": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#33251f",
             "fontSize": 0.75,
             "fontName": {},
@@ -1453,7 +1452,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/adplogo-icon-130x128.png",
+              "src": "@PROJECT_PATH@/assets/images/az-dems-logo-main-logo-3-171x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "home.html",
@@ -1652,7 +1651,7 @@
           "_params": {
             "logo": true,
             "sticky": true,
-            "transparent": false,
+            "transparent": true,
             "bgColor": "#33251f",
             "fontSize": 0.75,
             "fontName": {},
@@ -1664,7 +1663,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/adplogo-icon-130x128.png",
+              "src": "@PROJECT_PATH@/assets/images/az-dems-logo-main-logo-3-171x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "home.html",
